@@ -11,7 +11,7 @@ import {
 import Typography from "@mui/material/Typography";
 import { red } from "@mui/material/colors";
 import UiButton from "../button/button";
-import { Vendors } from "../../apollo/hooks/useGetVendorsByFilter";
+import { VendorType } from "../../apollo/hooks/useGetVendorsByFilter";
 import { VENDOR_STATUS_ENUM } from "../../shared/enums";
 const random = () => Math.floor(Math.random() * 255);
 const StyledCard = styled(Card)(({ theme }) => ({
@@ -29,7 +29,7 @@ const StyledProfileBox = styled(Box)(({ theme }) => ({
 
 interface UiVendorCardProps {
   onClickView?: () => void;
-  cardData: Vendors;
+  cardData: VendorType;
   onClickSubscription?: () => void;
 }
 
