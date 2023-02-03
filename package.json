@@ -2,9 +2,6 @@
   "name": "mpf-shopping",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node":"^14.15.0"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -51,7 +48,7 @@
     "libphonenumber-js": "^1.10.13",
     "moment": "^2.29.4",
     "next": "12.3.0",
-    "next-auth": "^4.19.2",
+    "next-auth": "^4.12.1",
     "next-pwa": "^5.5.4",
     "nextjs-progressbar": "^0.0.14",
     "nookies": "^2.5.2",
